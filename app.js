@@ -1,4 +1,3 @@
-function myFunction(){
- document.getElementById("demo").innerHTML="hi";
-    
+function myFunction(x){
+    x.classList.toggle("change");
 }
